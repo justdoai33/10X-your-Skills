@@ -1,7 +1,7 @@
 export const siteContent = {
   hero: {
-    heading: "No work? no internship? This is how you get \"Hands-on\" real work experience",
-    subheading: "Spend 12 weeks building AI agents solving real business problems.",
+    heading: "get real work experience",
+    subheading: "Spend 12 weeks building AI agents solving real business problems. 3 top candidates will be offered paid internships.",
     body: "Work with a team of 5. Ship real agent-to-agent systems. Build a portfolio that proves what you can do. Free, remote, and you own your work. This is your chance to showcase your talent and stand out."
   },
 
@@ -39,6 +39,11 @@ export const siteContent = {
         description: "A2A went v1.0 in March 2026. Nobody has years of experience yet. 12 weeks of real A2A work puts you ahead of most candidates."
       }
     ]
+  },
+
+  paidInternships: {
+    heading: "3 paid internships available",
+    body: "Top performers will be offered paid positions to continue the work. We're looking for people who ship, collaborate well, and handle real challenges. The 12 weeks is your audition."
   },
 
   projects: {

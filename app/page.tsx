@@ -151,6 +151,18 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Paid Internships Callout */}
+        <section style={{ background: '#1a1a1a', color: 'var(--color-white)', padding: 'var(--space-2xl) var(--space-md)' }}>
+          <div className="container-narrow text-center">
+            <h2 style={{ fontSize: 'var(--font-size-3xl)', fontWeight: 700, marginBottom: 'var(--space-lg)', color: 'var(--color-accent)' }}>
+              {siteContent.paidInternships.heading}
+            </h2>
+            <p style={{ fontSize: 'var(--font-size-lg)', lineHeight: 'var(--line-height-relaxed)', opacity: 0.9 }}>
+              {siteContent.paidInternships.body}
+            </p>
+          </div>
+        </section>
+
         {/* Roles Section */}
         <section id="roles" className="section">
           <div className="container">
